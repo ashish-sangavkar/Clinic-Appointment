@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center"
+    android:background="#C58F7E"
+    tools:context=".Doctor_home">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/framelayout">
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:text="Welcome Doctor"
+            android:textStyle="bold"
+            android:textColor="#0CC8B6"
+            android:background="#ECE2E2"
+            android:layout_gravity="center"/>
+    </FrameLayout>
+</LinearLayout>
